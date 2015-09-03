@@ -9,6 +9,7 @@ int main()
 	
 	if (btn == 0)
 	{
+		wait_ms(2);
 		if (lastState==1)
 		{
 			teller++;
@@ -17,6 +18,7 @@ int main()
 	}
 	if (btn==1)
 	{
+		wait_ms(2);
 		if (lastState==0)
 		{
 			lastState=1;
