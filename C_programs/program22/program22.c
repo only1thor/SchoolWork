@@ -16,6 +16,8 @@ int main()
 	float utPris[Amount];
 	int lager[Amount];
 	int i;
+	int totalUtsalgPris=0;
+	int totalInnkjopsPris=0;
 	
 	for(i=0;i<Amount;i++)
 	{		
@@ -38,8 +40,13 @@ int main()
 	{
 		printf("\n\n### Vare Nr %d: ###",i+1);
 		printf("\ninnkjøpspris:%d \nUtsalgspris: %.2f \nAntall på lager: %d",innPris[i],lager[i],utPris[i]);
+		totalInnkjopsPris+=innPris[i];
+		totalUtsalgPris+=utPris[i];
 	}
-	
+	printf("\n\n\n########## SUM #############");
+	printf("\ntotal innkjøpspris for hele lageret er: %d\n",totalInnkjopsPris);
+	printf("total utsalgspris for hele lageret er:  %d\n",totalUtsalgPris);
+	printf("om hele lageret ble solgt ville fortjenesten vert: %d\n",totalUtsalgPris-totalInnkjopsPris);
 	
 	return 0;
 }
