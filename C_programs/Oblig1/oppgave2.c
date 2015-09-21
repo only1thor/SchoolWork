@@ -40,4 +40,7 @@ int main()
 }
 
 
-void printFunc(char x);
+void printFunc(char x)
+{
+	
+}
