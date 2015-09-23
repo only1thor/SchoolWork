@@ -3,7 +3,8 @@
 //#include "stdlib.h"
 
 
-void printFunc(char);
+void printFunc(char); //unsed function
+void lineF(int);
 
 int main()
 {
@@ -12,34 +13,31 @@ int main()
 	
 	for(int i=1;i<10;i++)
 	{
-		for(int x=9;x>i;x--)
-		{
-			printf(" ");
-			
-		}
-		for(int y=0;y<(i*2)-1;y++)
-		{
-			printf("%d",i);
-		}
-		printf("\n",i);
+		lineF(i);
 	}
 	for(int i=8;i>0;i--)
 	{
-		for(int x=9;x>i;x--)
-		{
-			printf(" ");
-			
-		}
-		for(int y=0;y<(i*2)-1;y++)
-		{
-			printf("%d",i);
-		}
-		printf("\n",i);
+		lineF(i);
 	}
 	
 }
 
+void lineF(int i)
+{
+	for(int x=9;x>i;x--)
+		{
+			printf(" ");
+			
+		}
+		for(int y=0;y<(i*2)-1;y++)
+		{
+			printf("%d",i);
+		}
+		printf("\n");
+}
 
+
+//unsed function
 void printFunc(char x)
 {
 	
