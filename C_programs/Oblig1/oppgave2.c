@@ -33,7 +33,7 @@ void lineF(int i)
 		{
 			printf("%d",i);
 		}
-		printf("\n");
+	printf("\n");
 }
 
 
