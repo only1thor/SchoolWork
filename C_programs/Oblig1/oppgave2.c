@@ -4,7 +4,7 @@
 
 
 void printFunc(char); //unsed function
-void lineF(int);
+void lineF(int);	//Print 1 line. (includes spaces and numbers).
 
 int main()
 {
@@ -24,7 +24,7 @@ int main()
 
 void lineF(int i)
 {
-	for(int x=9;x>i;x--)
+	for(int x=9;x>i;x--) //prints the inverse amount of the vaiable "i". (passed to the function by main for loop)
 		{
 			printf(" ");
 			
