@@ -29,7 +29,7 @@ void lineF(int i)
 			printf(" ");
 			
 		}
-		for(int y=0;y<(i*2)-1;y++)
+	for(int y=0;y<(i*2)-1;y++)
 		{
 			printf("%d",i);
 		}
