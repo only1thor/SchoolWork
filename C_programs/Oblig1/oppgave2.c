@@ -1,9 +1,6 @@
 //written by Tcuc (Thor Christan Cusick).
 #include "stdio.h"
-
-void printFunc(char); //unsed function
 void lineF(int);	//Print 1 line. (includes spaces and numbers).
-
 int main()
 {	
 	for(int i=1;i<10;i++)
@@ -14,9 +11,7 @@ int main()
 	{
 		lineF(i);
 	}
-	
 }
-
 void lineF(int i)
 {
 	for(int x=9;x>i;x--) //prints the inverse amount of the vaiable "i". (passed to the function by main for loop)
@@ -29,14 +24,4 @@ void lineF(int i)
 			printf("%d",i);
 		}
 	printf("\n");
-}
-
-
-
-
-
-//unsed function
-void printFunc(char x)
-{
-	
 }
