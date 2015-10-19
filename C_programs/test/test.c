@@ -8,6 +8,7 @@ void func(int*);
 
 int main()
 {
+	/setting varables.
 	int b=0;
 	int *a = &b;
 	int A[]={3,5,7,9};
