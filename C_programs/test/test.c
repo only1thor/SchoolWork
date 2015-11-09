@@ -8,7 +8,7 @@ void func(int*);
 
 int main()
 {
-	/setting varables.
+	//setting varables.
 	int b=0;
 	int *a = &b;
 	int A[]={3,5,7,9};
@@ -20,7 +20,12 @@ int main()
 	printf("%d\n",&a);
 	printf("%d\n",&b);
 	*/
-	
+	a = A;
+	int i=0;
+	for(i=0;i<5;i++)
+	{
+		printf("peker:%d",a);
+	}
 	
 	printf("%d\n",*A);
 	printf("%d\n",*(A+1));
