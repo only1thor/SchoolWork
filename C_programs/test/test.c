@@ -10,8 +10,10 @@ int main()
 {
 	//setting varables.
 	int b=0;
-	int *a = &b;
+	int *a;
 	int A[]={3,5,7,9};
+	
+	a=&b;
 	
 	
 	/*
@@ -24,7 +26,7 @@ int main()
 	int i=0;
 	for(i=0;i<5;i++)
 	{
-		printf("peker:%d",a);
+		printf("peker:%d",&a);
 	}
 	
 	printf("%d\n",*A);

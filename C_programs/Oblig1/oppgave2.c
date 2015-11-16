@@ -1,10 +1,9 @@
 //written by Tcuc (Thor Christan Cusick).
 #include "stdio.h"
-void lineF(int);	//Print 1 line. (includes spaces and numbers).
 int main()
 {	
 	for(int i=1;i<10;i++)
-	{
+{	
 		lineF(i);
 	}
 	for(int i=8;i>0;i--)

@@ -9,7 +9,7 @@ void Utskrift(int *,int);
 
 int main()
 {
-	int flaskeType[5]={0};
+	int flaskeType[5];={0};
 	int input=0;
 	do 
 	{
