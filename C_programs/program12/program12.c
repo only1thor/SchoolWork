@@ -12,10 +12,6 @@ int main()
 			{
 				lastdata = variable;
 			}
-		else if (variable < 0) 
-			{
-				break; //unnecessary but i helped me find an error...
-			}
 	}while (variable >= 0)
 	printf("det minste tallet du skrev var:%d",lastdata);
 	return 0;
